@@ -8,5 +8,5 @@ Opzet van deze lezer is analoog aan die van GE Janssen: http://gejanssen.com/how
 P1 Converter cable van: https://sites.google.com/site/nta8130p1smartmeter/webshop
 
 Warmtepomp
-OpenDTA: http://sourceforge.net/projects/opendta/
-Compile deps:  sudo yum install qt-devel qt-config qwt-devel
+* OpenDTA: http://sourceforge.net/projects/opendta/ 
+* Compile deps:  sudo yum install qt-devel qt-config qwt-devel
