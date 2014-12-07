@@ -1,0 +1,12 @@
+[Unit]
+Description=P1 uitlezer service
+
+[Service]
+ExecStart=/home/djanse/p1uitlezer/p1uitlezer.js
+User=djanse
+Type=simple
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+Alias=p1uitlezer.service

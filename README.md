@@ -1,12 +1,17 @@
 p1uitlezer
 ==========
 
-Lees de P1 poort van een slimme meter uit en schrijf naar csv
+Read the P1 port of a smart meter and write to CSC
 
-Opzet van deze lezer is analoog aan die van GE Janssen: http://gejanssen.com/howto/Slimme-meter-uitlezen/index.html
+The node.js script is analoguous to that of GE Janssen's script: http://gejanssen.com/howto/Slimme-meter-uitlezen/index.html
 
-P1 Converter cable van: https://sites.google.com/site/nta8130p1smartmeter/webshop
+You can buy a P1 converter cable via: https://sites.google.com/site/nta8130p1smartmeter/webshop
 
-Warmtepomp
-* OpenDTA: http://sourceforge.net/projects/opendta/ 
+Eventually I will combine the smart meter data with my heatpump data.
+The heatpump has a datafile available via it's web interface at: http://<heatpump-ip-address>/proclog
+
+This dta-files can be read by OpenDTA:
+* OpenDTA: http://sourceforge.net/projects/opendta/
+
+To compile install the following deps:
 * Compile deps:  sudo yum install qt-devel qt-config qwt-devel
