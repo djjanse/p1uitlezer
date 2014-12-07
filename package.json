@@ -1,0 +1,20 @@
+{
+  "name": "P1Uitlezer",
+  "version": "0.0.1",
+  "description": "Lees de P1 poort van een slimme meter uit en schrijf naar csv",
+  "main": "p1uitlezer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "p1",
+    "slimme",
+    "meter",
+    "energie"
+  ],
+  "author": "Dennis Janse",
+  "license": "ISC",
+  "devDependencies": {
+    "moment": "~2.8.3"
+  }
+}
