@@ -86,6 +86,7 @@ serialPort.on("open", function () {
     //console.log(exportData);
     if (exportData.length === 10){
         // export only valid p1 messages (where we could find all our wanted information)
+	// timestamp, 1.8.1, 1.8.2, 2.8.1, 2.8.2, 
         var line = exportData.join(",");
         // TODO: write to rotated file
         var currentDatestamp = moment().format('YYMMDD');
