@@ -15,6 +15,6 @@
   "author": "Dennis Janse",
   "license": "ISC",
   "devDependencies": {
-    "moment": "~2.8.3"
+    "moment": "^2.22.2"
   }
 }
